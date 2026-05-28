@@ -33,14 +33,6 @@ Multiple experimental versions were implemented to compare results and identify 
 
 ---
 
-## Dataset
-| Dataset | Size | Classes | Notes |
-|-------|------|--------|------|
-| Dataset A | XXX images | N | Clean but limited diversity |
-| Dataset B | XXX images | N | More diverse, noisier labels |
-
----
-
 ## Experiments
 ### Version 1 – Initial Attempt
 **Goal:** Establish a working baseline  
@@ -63,12 +55,8 @@ Multiple experimental versions were implemented to compare results and identify 
 | Experiment | Training Time | Performance (Qualitative / Metrics) |
 |----------|--------------|-------------------------------------|
 | Version 1 | Already trained(came with dataset) | Moderate accuracy |
-| Version 2 | ~1 hour | Better accuracy |
+| Version 2 | ~1 hour     | Better accuracy |
 
-**Inference Performance:**  
-- Approx. XX FPS on test hardware
-
----
 
 ## Observed Issues & Limitations
 - Inconsistent detections in complex scenes
